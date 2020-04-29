@@ -14,8 +14,8 @@
   <!-- Font Awesome -->
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> -->
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/index_bootstrap.css">
-  <!-- Custom styles (optional) -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Custom styles -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Popper js -->
   <script type="text/javascript" src="js/popper/src/popper.js"></script>
@@ -28,6 +28,171 @@
   </script>
 </head>
 <body>
-	
+	<!-- sm md lg xl -->
+	<header class="container-fluid header">
+		<div class="container-md m-md-auto m-0  d-flex flex-row navbar navbar-expand-lg">
+			<a class="col-xl-6 col-lg-5 col-md-3 main-heading pt-3 c-pointer" href="#">MYCOMPANY</a>
+			<button class="navbar__btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+				<span>☰</span>
+			</button>
+			<nav class="row collapse navbar-collapse navbar-nav" id="navbarToggle">
+				<div class="row navbar-nav">
+					<a class="col-1 nav-item f-bold w-auto pt-3 px-0 mx-2 c-pointer items-border">HOME</a>
+					<a class="col-1 nav-item f-bold w-auto pt-3 px-0 mx-2 c-pointer items-border">ABOUT</a>
+					<a class="col-1 nav-item f-bold w-auto pt-3 px-0 mx-2 c-pointer items-border">SERVICES</a>
+					<a class="col-1 nav-item f-bold w-auto pt-3 px-0 mx-2 c-pointer items-border">PORTFOLIO</a>
+					<a class="col-1 nav-item f-bold w-auto pt-3 px-0 mx-2 c-pointer items-border">TESTIMONIALS</a>
+					<a class="col-1 nav-item f-bold w-auto pt-3 px-0 mx-2 c-pointer items-border">CONTACT</a>
+				</div>
+			</nav>
+		</div>
+		<article class="container-md header__article">
+			<p class="article__heading text-center">WELCOME ON <span>MYCOMPANY</span> </p>
+			<p class="text-center article__signature">We are a digital agency with <b>years of experience</b> and with <b>extraordinary people</b></p>
+		</article>
+	</header>
+	<!-- sm md lg xl -->
+	<main>
+		<section class="container-fluid d-flex flex-column">
+			<h1 class="text-center f-sb mt-5">ABOUT US</h1>
+			<div class="headingBorder text-center align-self-center mb-5"></div>
+			<div class="container-md mt-2 mt-md-6 mb-5">
+				<div class="row">
+					<div class="col-5 d-none d-md-block">
+						<img class="img-fluid" src="img/body.png" />
+					</div>
+					<div class="col ml-xl-8 ml-lg-7 ml-md-5 ml-sm-0 text-center text-lg-left d-flex flex-column">
+						<h3>Some words <span>about us</span></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus .</p>
+						<ul class="text-left section__list">
+							<li><span>Mission -</span> We deliver uniqueness and quality</li>
+							<li><span>Skills</span> - Delivering fast and excellent results</li>
+							<li><span>Clients</span> - Satisfied clients thanks to our experience</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid d-flex flex-column justify-content-center section-black">
+			<h1 class="text-center f-sb mt-5">OUR TEAM</h1>
+			<div class="headingBorder text-center align-self-center mb-9"></div>
+			<div class="container pb-7">
+				<div class="row mt-6">
+					<div class="col-md-3 d-flex flex-column align-items-center">
+						<img class="team__img img-fluid rounded-circle" src="img/brennan fuller.jpg" alt="brennan fuller">
+						<p class="f-bold mt-3">Vlad Ivanov</p>
+						<p class="f-regular">Designer</p>
+						<p class="text-center f-regular fs-09">Do not seek to change what has come before. Seek to create that which has not.</p>
+					</div>
+					<div class="col-md-3 d-flex flex-column align-items-center">
+						<img class="team__img img-fluid rounded-circle" src="img/tomothy ross.jpg" alt="tomothy ross">
+						<p class="f-bold mt-3">Ken Ramos</p>
+						<p class="f-regular">Manager</p>
+						<p class="text-center f-regular fs-09">Do not seek to change what has come before. Seek to create that which has not.</p>
+					</div>
+					<div class="col-md-3 d-flex flex-column align-items-center">
+						<img class="team__img img-fluid rounded-circle" src="img/soham holt.jpg" alt="soham holt">
+						<p class="f-bold mt-3">Pavel Konov</p>
+						<p class="f-regular">Copywriter</p>
+						<p class="text-center f-regular fs-09">Do not seek to change what has come before. Seek to create that which has not.</p>
+					</div>
+					<div class="col-md-3 d-flex flex-column align-items-center">
+						<img class="team__img img-fluid rounded-circle" src="img/ken ramos.jpg" alt="ken ramos">
+						<p class="f-bold mt-3">Ken Ramos</p>
+						<p class="f-regular">SEO</p>
+						<p class="text-center f-regular fs-09">Do not seek to change what has come before. Seek to create that which has not.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid d-flex flex-column align-items-center">
+			<h1 class="text-center f-sb mt-5">OUR SERVICES</h1>
+			<div class="headingBorder text-center align-self-center mb-9"></div>
+			<div class="container-md">
+				<div class="row mt-5 mb-6 justify-content-center">
+					<div class="col-12 col-md-9 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</div>
+				</div>
+				<div class="row mb-5">
+					<div class="col-md-3 d-flex flex-column align-items-center">
+						<img class="services__img img-fluid" src="img/Web design.png" alt="Web design" />
+						<p class="text-center f-sb fs-16 mt-4">WEB DESIGN</p>
+						<p class="text-center f-regular fs-09">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					</div>
+					<div class="col-md-3 d-flex flex-column align-items-center">
+						<img class="services__img img-fluid" src="img/Mobile apps.png" alt="Mobile apps" />
+						<p class="text-center f-sb fs-16 mt-4">MOBILE APPS</p>
+						<p class="text-center f-regular fs-09">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					</div>
+					<div class="col-md-3 d-flex flex-column align-items-center">
+						<img class="services__img img-fluid" src="img/PHOTOGRAPHY.png" alt="photography" />
+						<p class="text-center f-sb fs-16 mt-4">PHOTOGRAPHY</p>
+						<p class="text-center f-regular fs-09">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					</div>
+					<div class="col-md-3 d-flex flex-column align-items-center">
+						<img class="services__img img-fluid" src="img/marketing.png" alt="marketing" />
+						<p class="text-center f-sb fs-16 mt-4">MARKETING</p>
+						<p class="text-center f-regular fs-09">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-black container-fluid d-flex flex-column align-items-center">
+			<h1 class="text-center f-sb mt-5 f-osl">SOME OF <span class="f-sb">OUR CLIENTS</span></h1>
+			<div class="headingBorder text-center align-self-center mb-9"></div>
+			<div class="row mt-6 mb-8 d-flex flex-sm-row flex-column justify-content-center">
+				<div class="col-sm-2 mb-sm-0 mb-4">
+					<img class="img-fluid" src="img/chanel.png" alt="chanel" />
+				</div>
+				<div class="col-sm-2 mb-sm-0 mb-4">
+					<img class="img-fluid" src="img/zara.png" alt="zara" />
+				</div>
+				<div class="col-sm-2 mb-sm-0 mb-4">
+					<img class="img-fluid" src="img/guerlain.png" alt="guerlain" />
+				</div>
+				<div class="col-sm-2 mb-sm-0 mb-4">
+					<img class="img-fluid" src="img/lancome.png" alt="lancome" />
+				</div>
+				<div class="col-sm-2">
+					<img class="img-fluid" src="img/lacoste.png" alt="lacoste" />
+				</div>
+			</div>
+		</section>
+		<!-- sm md lg xl -->
+		<section class="container-fluid d-flex flex-column align-items-center">
+			<h1 class="text-center f-sb mt-5 f-osl">TAKE A LOOK AT <span class="f-sb">OUR WORK</span></h1>
+			<div class="headingBorder text-center align-self-center mb-9"></div>
+			<div class="container-md mb-5">
+				<div class="row mt-5 mb-6 justify-content-center">
+					<div class="col-9 text-center f-default-color ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</div>
+				</div>
+				<div class="row d-flex justify-content-center fifth-section-row">
+					<img class="img-fluid col-md-3 mb-4" src="img/img1.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img1.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img1.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img1.png" />
+				</div>
+				<div class="row d-flex justify-content-center fifth-section-row">
+					<img class="img-fluid col-md-3 mb-4" src="img/img2.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img2.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img2.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img2.png" />
+				</div>
+				<div class="row d-flex justify-content-center fifth-section-row">
+					<img class="img-fluid col-md-3 mb-4" src="img/img3.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img3.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img3.png" />
+					<img class="img-fluid col-md-3 mb-4" src="img/img3.png" />
+				</div>
+			</div>
+		</section>
+		<section class="section-black container-fluid d-flex flex-column align-items-center">
+			<h1 class="text-center f-sb mt-5 f-osl">OUR CLIENTS’ <span class="f-sb">TESTIMONIALS</span></h1>
+			<div class="headingBorder text-center align-self-center mb-9"></div>
+			<div class="container-md mb-6">
+				<p class="mt-7 mb-6 f-sb fs-09 text-center f-default-color-2">This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+				<p class="text-center f-sb f-default-color-2">Dean Martin, <span class="f-osl">CEO Acme Inc.</span></p>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
